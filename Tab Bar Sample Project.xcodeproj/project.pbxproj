@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65182F7C19AA5F260045D3CA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65182F7B19AA5F260045D3CA /* main.swift */; };
+		65182F7E19AA5F260045D3CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65182F7D19AA5F260045D3CA /* AppDelegate.swift */; };
+		65182F8019AA5F260045D3CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65182F7F19AA5F260045D3CA /* Images.xcassets */; };
+		65182F8319AA5F260045D3CA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65182F8119AA5F260045D3CA /* MainMenu.xib */; };
+		65182F9A19AA5F930045D3CA /* DWIconTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65182F9919AA5F930045D3CA /* DWIconTabBar.swift */; };
+		65182F9C19AA5FBD0045D3CA /* DWIconTabBarButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65182F9B19AA5FBD0045D3CA /* DWIconTabBarButtonCell.swift */; };
+		654C000319ABDEB400C19CA8 /* DWIconTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654C000219ABDEB400C19CA8 /* DWIconTabBarItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		65182F7619AA5F260045D3CA /* Tab Bar Sample Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tab Bar Sample Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65182F7A19AA5F260045D3CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = "Tab Bar Sample Project/Info.plist"; sourceTree = "<group>"; };
+		65182F7B19AA5F260045D3CA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = main.swift; path = "Tab Bar Sample Project/main.swift"; sourceTree = "<group>"; };
+		65182F7D19AA5F260045D3CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "Tab Bar Sample Project/AppDelegate.swift"; sourceTree = "<group>"; };
+		65182F7F19AA5F260045D3CA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "Tab Bar Sample Project/Images.xcassets"; sourceTree = "<group>"; };
+		65182F8219AA5F260045D3CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		65182F9919AA5F930045D3CA /* DWIconTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DWIconTabBar.swift; path = Source/DWIconTabBar.swift; sourceTree = "<group>"; };
+		65182F9B19AA5FBD0045D3CA /* DWIconTabBarButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DWIconTabBarButtonCell.swift; path = Source/DWIconTabBarButtonCell.swift; sourceTree = "<group>"; };
+		654C000219ABDEB400C19CA8 /* DWIconTabBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DWIconTabBarItem.swift; path = Source/DWIconTabBarItem.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65182F7319AA5F250045D3CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65182F6D19AA5F250045D3CA = {
+			isa = PBXGroup;
+			children = (
+				65182F7819AA5F260045D3CA /* Tab Bar Sample Project */,
+				65182F7719AA5F260045D3CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65182F7719AA5F260045D3CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65182F7619AA5F260045D3CA /* Tab Bar Sample Project.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65182F7819AA5F260045D3CA /* Tab Bar Sample Project */ = {
+			isa = PBXGroup;
+			children = (
+				65E6D25B19AD26AB00D7DA4A /* Controls */,
+				65E6D25C19AD26BC00D7DA4A /* Demo App */,
+			);
+			name = "Tab Bar Sample Project";
+			sourceTree = "<group>";
+		};
+		65182F7919AA5F260045D3CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65182F7A19AA5F260045D3CA /* Info.plist */,
+				65182F7B19AA5F260045D3CA /* main.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65E6D25B19AD26AB00D7DA4A /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				65182F9919AA5F930045D3CA /* DWIconTabBar.swift */,
+				654C000219ABDEB400C19CA8 /* DWIconTabBarItem.swift */,
+				65182F9B19AA5FBD0045D3CA /* DWIconTabBarButtonCell.swift */,
+			);
+			name = Controls;
+			sourceTree = "<group>";
+		};
+		65E6D25C19AD26BC00D7DA4A /* Demo App */ = {
+			isa = PBXGroup;
+			children = (
+				65182F7D19AA5F260045D3CA /* AppDelegate.swift */,
+				65182F7F19AA5F260045D3CA /* Images.xcassets */,
+				65182F8119AA5F260045D3CA /* MainMenu.xib */,
+				65182F7919AA5F260045D3CA /* Supporting Files */,
+			);
+			name = "Demo App";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65182F7519AA5F250045D3CA /* Tab Bar Sample Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65182F9219AA5F260045D3CA /* Build configuration list for PBXNativeTarget "Tab Bar Sample Project" */;
+			buildPhases = (
+				65182F7219AA5F250045D3CA /* Sources */,
+				65182F7319AA5F250045D3CA /* Frameworks */,
+				65182F7419AA5F250045D3CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tab Bar Sample Project";
+			productName = "Tab Bar";
+			productReference = 65182F7619AA5F260045D3CA /* Tab Bar Sample Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65182F6E19AA5F250045D3CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Daniel Wischnewski";
+				TargetAttributes = {
+					65182F7519AA5F250045D3CA = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = 65182F7119AA5F250045D3CA /* Build configuration list for PBXProject "Tab Bar Sample Project" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65182F6D19AA5F250045D3CA;
+			productRefGroup = 65182F7719AA5F260045D3CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65182F7519AA5F250045D3CA /* Tab Bar Sample Project */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65182F7419AA5F250045D3CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65182F8019AA5F260045D3CA /* Images.xcassets in Resources */,
+				65182F8319AA5F260045D3CA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65182F7219AA5F250045D3CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654C000319ABDEB400C19CA8 /* DWIconTabBarItem.swift in Sources */,
+				65182F9C19AA5FBD0045D3CA /* DWIconTabBarButtonCell.swift in Sources */,
+				65182F7E19AA5F260045D3CA /* AppDelegate.swift in Sources */,
+				65182F7C19AA5F260045D3CA /* main.swift in Sources */,
+				65182F9A19AA5F930045D3CA /* DWIconTabBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		65182F8119AA5F260045D3CA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65182F8219AA5F260045D3CA /* Base */,
+			);
+			name = MainMenu.xib;
+			path = "Tab Bar Sample Project";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65182F9019AA5F260045D3CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65182F9119AA5F260045D3CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		65182F9319AA5F260045D3CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Tab Bar Sample Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "Tab Bar Sample Project";
+			};
+			name = Debug;
+		};
+		65182F9419AA5F260045D3CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Tab Bar Sample Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "Tab Bar Sample Project";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65182F7119AA5F250045D3CA /* Build configuration list for PBXProject "Tab Bar Sample Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65182F9019AA5F260045D3CA /* Debug */,
+				65182F9119AA5F260045D3CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65182F9219AA5F260045D3CA /* Build configuration list for PBXNativeTarget "Tab Bar Sample Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65182F9319AA5F260045D3CA /* Debug */,
+				65182F9419AA5F260045D3CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65182F6E19AA5F250045D3CA /* Project object */;
+}
